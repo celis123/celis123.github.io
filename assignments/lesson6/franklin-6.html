@@ -11,11 +11,11 @@
     <!-- normalize useragent/browser defaults -->
     <link href="css/normalize.css" rel="stylesheet">
     <!-- default styles - small/phone views -->
-    <link href="css/main-5.css" rel="stylesheet">
+    <link href="css/main-6.css" rel="stylesheet">
     <!-- medium/tablet views -->
-    <link href="css/medium-5.css" rel="stylesheet">
+    <link href="css/medium-6.css" rel="stylesheet">
     <!-- large/wide/desktop views -->
-    <link href="css/large-5.css" rel="stylesheet">
+    <link href="css/large-6.css" rel="stylesheet">
 </head>
 
 <body>
@@ -43,9 +43,9 @@
         <h2>The City of Franklin</h2>
         <figure>
             <img src="images/franklin-websafe1024.jpg" alt="sunny franklin" sizes="100vw"
-                 srcset="images/franklin-websafe400.jpg 400vw
-                         images/franklin-websafe700.jpg 700vw
-                         images/franklin-websafe1024.jpg 1024vw">
+                 srcset="images/franklin-websafe400.jpg 400w,
+                         images/franklin-websafe700.jpg 700w,
+                         images/franklin-websafe1024.jpg 1024w">
             <figcaption>Image of the assignment</figcaption>
         </figure>
         <section class="section1">
@@ -115,7 +115,9 @@
         <P>(999) 999 9999</P>
         <P>Contact@url.com</P>
         </aside>
-        <p class="footer-bar">&copy;2018 All Rights Reserved | Sunny or Rainy | </p>
+        <p class="footer-bar">&copy;2018 All Rights Reserved | Sunny or Rainy | <span id="currentdate"></span></p>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
     </footer>
 
 </body>
