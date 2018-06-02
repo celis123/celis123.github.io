@@ -22,9 +22,6 @@
     .hamburger {
         display: none;
     }
-    nav{
-        display: flex;
-    }
     .navigation {
         margin: 0px;
         overflow: hidden;
@@ -53,6 +50,9 @@
     .navigation li a:hover{
         background-color: #555;
         color: #fff;
+    }
+    main {
+        clear: both;
     }
     main figure img {
         display: block;
