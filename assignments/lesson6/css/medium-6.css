@@ -18,6 +18,7 @@
         width: auto;
         height: auto;
         float: left;
+        margin: 2% 0 0 2%;
     }
     .hamburger {
         display: none;
