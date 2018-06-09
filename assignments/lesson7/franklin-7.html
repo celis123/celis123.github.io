@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather now in Franklin | Sunny or Rainy</title>
+    <meta name="author" content="cristobal a. celis">
+    <meta name="description" content="weather page franklin city">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
+    <!-- external style references in the proper cascading order -->
+    <!-- normalize useragent/browser defaults -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- default styles - small/phone views -->
+    <link href="css/main-7.css" rel="stylesheet">
+    <!-- medium/tablet views -->
+    <link href="css/medium-7.css" rel="stylesheet">
+    <!-- large/wide/desktop views -->
+    <link href="css/large-7.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo-cit230.jpg" alt="The site logo">
+        <h1>Sunny or Rainy you'll always know the weather</h1>
+        
+    </header>
+
+    <!-- site navigation use placeholder references -->
+    <button class="hamburger" onclick="toggleNavMenu()">&#9776;</button>
+    <nav>
+        <ul class="navigation">
+            <li class="list"><a href="#">Home</a></li>
+            <li class="list active"><a href="#">Franklin</a></li>
+            <li class="list"><a href="#">Greenville</a></li>
+            <li class="list"><a href="#">Springfield</a></li>
+            <li class="list"><a href="#">Storm Center</a></li>
+            <li class="list"><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>The City of Franklin</h2>
+        <figure>
+            <img src="images/franklin.jpg" alt="sunny franklin" sizes="100vw"
+                 srcset="images/franklin400.jpg 400w,
+                         images/franklin700.jpg 700w,
+                         images/franklin.jpg 1024w">
+            <figcaption>Image of the assignment</figcaption>
+        </figure>
+        <section class="section1">
+            <h3 class="header">Weather Summary</h3>
+            <div class="current">
+                <p>Sunny</p>
+                <picture>
+                    <img src="images/sunny.png" alt="sunny">
+                </picture>
+            </div>
+            <div class="highlow">
+                <p>High: <span id="high">92</span>&deg;F</p>
+                <p>Low: <span id="low">85</span>&deg;F</p>
+            </div>
+            <div class="conditions">
+                <p>Precipitation: 0%</p>
+                <p>Wind Speed: NW <span id="speed">2</span>mph</p>
+                <p>Wind Chill: <span id="windchill"></span>&deg;F</p>
+            </div>
+        </section>
+        <section class="forecast">
+            <h3 class="ttitle">10 Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                        <th>Day 6</th>
+                        <th>Day 7</th>
+                        <th>Day 8</th>
+                        <th>Day 9</th>
+                        <th>Day 10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>89&deg;F</td>
+                        <td>87&deg;F</td>
+                        <td>78&deg;F</td>
+                        <td>75&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>79&deg;F</td>
+                        <td>83&deg;F</td>
+                        <td>85&deg;F</td>
+                        <td>89&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <article>
+            <h3>Franklin is preparing for spring season</h3>
+            <p class="town-article">
+                <img src="images/franklinSpring.jpeg" alt="festivities on franklin"> In the city of franklin the people are buying food and preapring themselves for the next fourth of july and the upcoming spring season. The mayor spoke this afternoon about the responsability of the citizens to drive carefully and reduce the contamination that these celebrations may cause
+            </p>
+        </article>
+
+    </main>
+
+    <footer>
+        <aside class="information">
+        <p>123 Main Street St. Franklin</p>
+        <P>MU 83454 999</P>
+        <P>(999) 999 9999</P>
+        <P>Contact@url.com</P>
+        </aside>
+        <p class="footer-bar">&copy;2018 All Rights Reserved | Sunny or Rainy | <span id="currentdate"></span></p>
+    </footer>
+    <script src="js/hamburger.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+
+</html>
