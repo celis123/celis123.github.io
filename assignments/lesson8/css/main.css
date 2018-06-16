@@ -33,7 +33,9 @@ header h1 {
     align-content: center;
     align-self: center;
 }
-
+#makeBolder {
+    font-weight: 700;
+}
 table,
 th,
 td {
@@ -87,3 +89,4 @@ td {
     padding: 5px;
     text-align: center;
 }
+
