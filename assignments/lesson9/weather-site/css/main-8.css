@@ -276,7 +276,11 @@ footer {
         float: right;
         width: auto;
     }
-
+    .weatherAPI {
+        text-decoration: none;
+        color: #ff8c18;
+        font-weight: 900;
+    }
 
 /*-------------End Of Franklin------------*/
 /*----------------Gallery----------------*/
