@@ -297,7 +297,7 @@ footer {
 /*--------------------FORM----------------*/
 .stormCenter{
     display: grid;
-    grid-row: 0.1fr 0.1fr 0.1fr 1fr;
+    grid-row: 1fr 1fr 1fr 10fr;
 }
 .attentionTitle{
     text-align: center;
@@ -413,7 +413,7 @@ input.submitBtn{
 /*-------------Thanks---------------*/
 mainThanks {
     display: grid;
-    grid-row: 0.2fr 1fr 0.1fr;
+    grid-row: 2fr 10fr 1fr;
 }
 .thanksTitle{
     text-align: center;
