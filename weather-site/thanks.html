@@ -10,7 +10,7 @@
     <!-- Google API font reference -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
     <!-- normalize useragent/browser defaults -->
-    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <!-- default styles - small/phone views -->
     <link href="css/main-8.css" rel="stylesheet">
     <!-- medium/tablet views -->
@@ -21,9 +21,8 @@
 
 <body>
 
-    <header>
-        <img src="images/logo-cit230.jpg" alt="The site logo">
-        <h1>Sunny or Rainy you'll always know the weather</h1>
+    <header includefile="header.html">
+
         
     </header>
 
@@ -33,8 +32,8 @@
         <ul class="navigation">
             <li class="list"><a href="index.html">Home</a></li>
             <li class="list"><a href="franklin-8.html">Franklin</a></li>
-            <li class="list"><a href="#">Greenville</a></li>
-            <li class="list"><a href="#">Springfield</a></li>
+            <li class="list"><a href="greenville.html">Greenville</a></li>
+            <li class="list"><a href="springfield.html">Springfield</a></li>
             <li class="list"><a href="stormcenter.html">Storm Center</a></li>
             <li class="list"><a href="gallery.html">Gallery</a></li>
         </ul>
@@ -57,9 +56,10 @@
         <p class="footer-bar">&copy;2018 All Rights Reserved | Sunny or Rainy | <span id="currentdate"></span></p>
     </footer>
     
-    <script src="scripts/hamburger.js"></script>
-    <script src="scripts/currentdate.js"></script>
-    <script src="scripts/rating.js"></script>
+    <script src="js/module.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/rating.js"></script>
     
 
 </body>

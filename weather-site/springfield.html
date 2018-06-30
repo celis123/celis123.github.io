@@ -4,11 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Weather now in Franklin | Sunny or Rainy</title>
+    <title>Weather now in Springfield | Sunny or Rainy</title>
     <meta name="author" content="cristobal a. celis">
     <meta name="description" content="weather page franklin city">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
     <!-- external style references in the proper cascading order -->
+    <!-- Google API font reference -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
     <!-- normalize useragent/browser defaults -->
     <link href="css/normalize.css" rel="stylesheet">
     <!-- default styles - small/phone views -->
@@ -27,45 +28,46 @@
     </header>
 
     <!-- site navigation use placeholder references -->
-    <button class="hamburger" onclick="toggleNavMenu()">&#9776;</button>
     <nav>
+        <button class="hamburger" onclick="toggleNavMenu()" >&#9776;</button>
         <ul class="navigation">
             <li class="list"><a href="index.html">Home</a></li>
-            <li class="list active"><a href="#">Franklin</a></li>
+            <li class="list"><a href="franklin-8.html">Franklin</a></li>
             <li class="list"><a href="greenville.html">Greenville</a></li>
-            <li class="list"><a href="springfield.html">Springfield</a></li>
+            <li class="active list"><a href="#">Springfield</a></li>
             <li class="list"><a href="stormcenter.html">Storm Center</a></li>
             <li class="list"><a href="gallery.html">Gallery</a></li>
         </ul>
     </nav>
 
     <main>
-        <h2>The City of Franklin</h2>
+        <h2>The City of Springfield</h2>
         <figure>
-            <img src="images/franklin.jpg" alt="sunny franklin" sizes="100vw"
-                 srcset="images/franklin400.jpg 400w,
-                         images/franklin700.jpg 700w,
-                         images/franklin.jpg 1024w">
+            <img src="images/springfield-sunny.jpg" alt="sunny franklin" sizes="100vw"
+                 srcset="images/springfield-sunny400.jpg 400w,
+                         images/springfield-sunny700.jpg 700w, 
+                         images/springfield-sunny1024.jpg 1024w">
         </figure>
         <section class="section1">
             <h1 class="header">Weather Summary</h1>
             <div class="current">
-                <p><span id="WDescription"></span></p>
+                <p>Sunny</p>
                 <picture>
-                    <img id="weatherIco" src="http://openweathermap.org/img/w/" alt="sunny weather">
+                    <img id="weatherIco" src="images/sunny.png" alt="sunny weather">
                 </picture>
             </div>
             <div class="highlow">
-                <p>High: <span id="high">22</span>&deg;F</p>
-                <p>Low: <span id="low">33</span>&deg;F</p>
-                <p>Current Temp: <span id="curTemp">25</span></p>
+                <p>High: <span id="high">92</span>&deg;F</p>
+                <p>Low: <span id="low">60</span>&deg;F</p>
+                <p>Current Temp: <span id="curTemp">60</span></p>
             </div>
             <div class="conditions">
                 <p class="p1">Precipitation: <span id="todayPrecipitacion">0 mm</span></p>
-                <p class="p2">Wind Speed: <span id="speed">2</span>mph</p>
-                <p class="p3">Wind Chill: <span id="windchill">22</span>&deg;F</p>
+                <p class="p2">Wind Speed: <span id="WindDirection"></span> <span id="speed">2</span>mph</p>
+                <p class="p3">Wind Chill: <span id="windchill"></span>&deg;F</p>
             </div>
         </section>
+
         <section class="forecast">
             <h3 class="ttitle">10 Day Forecast</h3>
             <table>
@@ -112,12 +114,13 @@
         </aside>
         <p class="footer-bar">&copy;2018 All Rights Reserved | Sunny or Rainy | <span id="currentdate"></span></p>
     </footer>
+    
     <script src="js/module.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/hamburger.js"></script>
-    <script src="js/currentdate.js"></script>
     <script src="js/windchill.js"></script>
-    
+    <script src="js/currentdate.js"></script>
+
 </body>
 
 </html>
