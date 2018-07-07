@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather now in Franklin | Sunny or Rainy</title>
+    <meta name="author" content="cristobal a. celis">
+    <meta name="description" content="weather page franklin city">
+    <!-- external style references in the proper cascading order -->
+    <!-- Google API font reference -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
+    <!-- normalize useragent/browser defaults -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- default styles - small/phone views -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- medium/tablet views -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- large/wide/desktop views -->
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header includefile="header.html">
+
+        
+    </header>
+
+    <!-- site navigation use placeholder references -->
+    <nav>
+        <button class="hamburger" onclick="toggleNavMenu()" >&#9776;</button>
+        <ul class="navigation">
+            <li class="active list"><a href="#">Home</a></li>
+            <li class="list"><a href="franklin-8.html">Franklin</a></li>
+            <li class="list"><a href="greenville.html">Greenville</a></li>
+            <li class="list"><a href="springfield.html">Springfield</a></li>
+            <li class="list"><a href="stormcenter.html">Storm Center</a></li>
+            <li class="list"><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="breakingNews">
+        <h3>Franklin is preparing for spring season</h3>
+            <p class="town-article">
+                <img src="images/franklinSpring.jpeg" alt="festivities on franklin"> In the city of franklin the people are buying food and preapring themselves for the next fourth of july and the upcoming spring season. The mayor spoke this afternoon about the responsability of the citizens to drive carefully and reduce the contamination that these celebrations may cause
+            </p>
+        </section>
+        <section class="franklinTowns">
+            
+        </section>
+
+
+    </main>
+    <footer>
+        <aside class="information">
+        <p>123 Main Street St. Franklin</p>
+        <P>MU 83454 999</P>
+        <P>(999) 999 9999</P>
+        <P>Contact@url.com</P>
+        </aside>
+        <p class="footer-bar">&copy;2018 All Rights Reserved | Sunny or Rainy | <span id="currentdate"></span></p>
+    </footer>
+    <script src="js/module.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
