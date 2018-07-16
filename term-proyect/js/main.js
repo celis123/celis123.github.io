@@ -1,6 +1,6 @@
 var section = document.querySelector('main>section.bikes');
 
-var requestURL = 'https://celis123.github.io/term-project/data/prices.json';
+var requestURL = 'https://celis123.github.io/term-proyect/data/prices.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
