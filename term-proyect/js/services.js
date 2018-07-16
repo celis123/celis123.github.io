@@ -13,7 +13,7 @@ request.onload = function () {
 
 
 function showServices(jsonObj) {
-    var theServices = jsonObj['service'];
+    var theServices = jsonObj['servicetype'];
 
     for (var i = 0;i<theServices.length; i++) {
     if (
