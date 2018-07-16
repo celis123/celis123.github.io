@@ -8,14 +8,14 @@ request.send();
 
 request.onload = function () {
     var price = request.response;
-    showTowns(weathe);
+    showBikes(price);
 };
 
 
-function showTowns(jsonObj) {
-    var theBikes = jsonObj['towns'];
+function showBikes(jsonObj) {
+    var theBikes = jsonObj['bikes'];
 
-    for (var i = 0;i<theTowns.length; i++) {
+    for (var i = 0;i<theBikes.length; i++) {
     if (
     theBikes[i].type == "Mountain Bike" ||
     theBikes[i].type == "Urban" ||
