@@ -1,5 +1,5 @@
 {
-  "servicetype" : [
+  "servicetypes" : [
     {
       "name" : "Check & Tune",
       "price" : 30,

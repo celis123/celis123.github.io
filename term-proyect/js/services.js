@@ -7,13 +7,13 @@ request.responseType = 'json';
 request.send();
 
 request.onload = function () {
-    var loader = request.response;
-    showServices(loader);
+    var loadersts = request.response;
+    showServices(loadersts);
 };
 
 
 function showServices(jsonObj) {
-    var theServices = jsonObj['servicetype'];
+    var theServices = jsonObj['servicetypes'];
 
     for (var i = 0;i<theServices.length; i++) {
     if (
