@@ -32,7 +32,7 @@ function showServices(jsonObj) {
     myH2.textContent = theServices[i].name;
     myPara1.textContent = 'Price: ' + theServices[i].price + ' USD';
     myPara2.textContent = 'Details: ' + theServices[i].details;
-    myPara3.textContent = 'Specifications: ';
+    myPara3.textContent = theServices[i].headers;
     
     var servicesSpecifications = theServices[i].specifications;
     for (var j = 0; j < servicesSpecifications.length; j++) {

@@ -26,7 +26,7 @@
     .navigation {
         margin: 0px;
         overflow: hidden;
-        background-color: #3c8ed2;
+        background-color: #ee2d39;
         padding: 0;
         display: flex;
         flex-flow: row;
@@ -46,7 +46,7 @@
     }
     .navigation li.active a{
         color: #191919;
-        background-color: #b1d1ed;
+        background-color: #ff8c18;
     }
     .navigation li a:hover{
         background-color: #555;
@@ -114,7 +114,7 @@
     }
     /*-----------End of Gallery------------*/
     /*-----------------Index----------------*/
-    .franklinTowns {
+    .services {
         grid-template-columns: 1fr 1fr 1fr;
     }
     /*-----------------End of Index---------*/
