@@ -13,7 +13,7 @@ request.onload = function () {
 
 
 function showBikes(jsonObj) {
-    var theBikes = jsonObj['bikes'];
+    var theBikes = jsonObj['bike'];
 
     for (var i = 0;i<theBikes.length; i++) {
     if (
