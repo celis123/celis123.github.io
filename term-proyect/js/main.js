@@ -32,7 +32,7 @@ function showBikes(jsonObj) {
     myH2.textContent = theBikes[i].type;
     myPara1.textContent = 'Brand: ' + theBikes[i].Brand;
     myPara2.textContent = 'Price: ' + theBikes[i].price + ' USD';
-    myPara3.textContent = 'Specifications: ' + theTowns[i].specifications;
+    myPara3.textContent = 'Specifications: ' + theBikes[i].specifications;
 
 
     myArticle.appendChild(myH2);
