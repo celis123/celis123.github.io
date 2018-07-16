@@ -7,8 +7,8 @@ request.responseType = 'json';
 request.send();
 
 request.onload = function () {
-    var service = request.response;
-    showServices(service);
+    var loader = request.response;
+    showServices(loader);
 };
 
 
