@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="en-us">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Thanks | Sunny or Rainy</title>
+    <title>Drive your life | The Mountain Spoke</title>
     <meta name="author" content="cristobal a. celis">
     <meta name="description" content="Mountain Spoke Bikes Retail Site">
     <!-- external style references in the proper cascading order -->
@@ -30,8 +31,8 @@
     <nav>
         <button class="hamburger" onclick="toggleNavMenu()" >&#9776;</button>
         <ul class="navigation">
-            <li class="list"><a href="index.html">Home</a></li>
-            <li class="list active"><a href="adventureTours.html">Adventure Tours</a></li>
+            <li class="list"><a href="#">Home</a></li>
+            <li class="list"><a href="adventureTours.html">Adventure Tours</a></li>
             <li class="list"><a href="events.html">Events</a></li>
             <li class="list"><a href="bikes.html">Bikes</a></li>
             <li class="list"><a href="services.html">Services</a></li>
@@ -39,14 +40,34 @@
         </ul>
     </nav>
 
-    <main class="mainThanks">
-       <h1 class="thanksTitle">Information Completed!</h1>
-        <figure class="thanks">
-        <img src="images/thank-you.jpg" alt="thank you image">
-        <p>Thanks, We will contact you</p>
+    <main>
+        <figure>
+            <img src="images/main-image.jpeg" alt="sunny franklin" sizes="100vw"
+                 srcset="images/main-image320.jpeg 400w,
+                         images/main-image768.jpeg 700w,
+                         images/main-image.jpeg 1024w">
         </figure>
+        <h1 class="marketing">Feel the experience of The Mountain Spoke</h1>
+        <div class="biking">
+            <section class="image soul">
+                <figure>
+                    <img src="images/soul-bike.jpg" alt="soul bike">
+                    <figcaption class="legend">
+                        Four wheels move your body, two wheels move your soul.
+                    </figcaption>
+                </figure>
+            </section>
+            <section class="image faster">
+                <figure>
+                    <img src="images/faster-bike.jpg" alt="faster bike">
+                    <figcaption class="legend">
+                        “It never gets easier, you just get faster.”
+                    </figcaption>
+                </figure>
+            </section>
+        </div>
     </main>
-        <footer>
+    <footer>
         <aside class="information">
         <p>3950 Valley Commons Drive Bozeman, MT</p>
         <P>MT 3950 999</P>
@@ -55,12 +76,13 @@
         </aside>
         <p class="footer-bar">&copy;2018 All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span></p>
     </footer>
-    
+    <script src="js/jquery-2.2.1.min.js"></script>
     <script src="js/module.js"></script>
     <script src="js/hamburger.js"></script>
     <script src="js/currentdate.js"></script>
-    <script src="js/rating.js"></script>
-    
+    <script src="js/services.js"></script>
+    <script src="js/indexjquery.js"></script>
 
 </body>
+
 </html>

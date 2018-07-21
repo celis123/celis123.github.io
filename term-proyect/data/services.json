@@ -2,7 +2,7 @@
   "servicetypes" : [
     {
       "name" : "Check & Tune",
-      "price" : 30,
+      "price" : 29,
       "details" : "For a Check & Tune service our mechanic gives your bike a thorough once over, checking the brakes, gears and tyres for wear and damage - so you can have peace of mind that your bike will ride smoothly and safely.",
       "headers" : "",
       "specifications" : [
@@ -15,7 +15,7 @@
     },
     {
       "name" : "General bike Service",
-      "price" : 60,
+      "price" : 59,
       "details" : "A General Service includes a thorough clean and de-grease, leaving your bike looking and running like new.",
       "headers": "All services in the Check & Tune service, plus:",
       "specifications" : [
@@ -26,7 +26,7 @@
     },
     {
       "name" : "FULL BIKE SERVICE",
-      "price" : 90,
+      "price" : 89,
       "details" : "Whether you ride MTB or Road, we recommend a Full Service at least once a year to keep you bike running at its best.",
       "headers": "All services in the General Service, plus:",
       "specifications" : [

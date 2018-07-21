@@ -26,7 +26,7 @@
     .navigation {
         margin: 0px;
         overflow: hidden;
-        background-color: #ee2d39;
+        background-color: #E10013;
         padding: 0;
         display: flex;
         flex-flow: row;
@@ -45,8 +45,8 @@
         flex: 1 1 auto;
     }
     .navigation li.active a{
-        color: #191919;
-        background-color: #ff8c18;
+        color: #FFF;
+        background-color: #EE7500;
     }
     .navigation li a:hover{
         background-color: #555;
@@ -97,25 +97,36 @@
         padding: 0.45rem;
     }
     /* show the 10-day forecast with the medium view and up */
-    article p.town-article img {
+    article p.marketing-one img {
         width: 62.666%;
         float: right;
     }
     article p{
         overflow: auto;
     }
-    .breakingNews img{
-    float: right;
-    width: 330px;
-    }
+
     /*--------------Gallery--------------*/
-    .gallery {
+    .biking {
     grid-template-columns: 1fr 1fr;
     }
     /*-----------End of Gallery------------*/
     /*-----------------Index----------------*/
     .services {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     /*-----------------End of Index---------*/
+    /*-------------------Bikes------------*/
+    .slider .caption p{
+        font-size: 15px;
+	}
+
+	.slider .caption h1{
+		font-size: 35px;
+	}
+
+	.left, .right{
+		font-size: 30px;
+	}
+
+    /*----------------End of bikes------------*/
   }

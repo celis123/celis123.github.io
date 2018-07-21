@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The best bikes | The Mountain Spoke</title>
+    <meta name="author" content="cristobal a. celis">
+    <meta name="description" content="Mountain Spoke Bikes Retail Site">
+    <!-- external style references in the proper cascading order -->
+    <!-- Google API font reference -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
+    <!-- normalize useragent/browser defaults -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- default styles - small/phone views -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- medium/tablet views -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- large/wide/desktop views -->
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header includefile="header.html">
+
+        
+    </header>
+
+    <!-- site navigation use placeholder references -->
+    <nav>
+        <button class="hamburger" onclick="toggleNavMenu()" >&#9776;</button>
+        <ul class="navigation">
+            <li class="list"><a href="index.html">Home</a></li>
+            <li class="list"><a href="adventureTours.html">Adventure Tours</a></li>
+            <li class="list active"><a href="#">Events</a></li>
+            <li class="list"><a href="bikes.html">Bikes</a></li>
+            <li class="list"><a href="services.html">Services</a></li>
+            <li class="list"><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main class="events">
+        <h1 class="attentionTitle">Cycle the Continental Divide Annual event</h1>
+        <img src="images/events.jpg" alt="Montana clear skies" class="garage">
+        <section class="eventInfo">
+            <p>Join us!, in the annual ride of the Continental Divide, were you can experience the real montana and why is the most beautiful and the most beloved state for the real adventurers of America</p>
+            <p>Starting in Bozeman, we’ll travel across high plains to the blue-ribbon waters of the Madison River. We’ll climb through the Tobacco Root Mountains before descending past the historic ghost towns of Virginia City and Nevada City. Our group will follow the Jefferson River into the ranching town of Dillon, where we’ll take in the remote Pioneer Mountains Scenic Byway. We’ll briefly parallel the Big Hole River before ascending to the Continental Divide, and then we’ll roll into the legendary copper mining city of Butte. From here it’s a leisurely cruise back to Bozeman and the completion of this grand Big Sky loop!</p>
+            <ul>
+                <li>date: June 16- June 23</li>
+                <li>route:</li>
+                <li>cost: 1499 usd</li>
+                <li>Skill required: medium</li>
+                <li>requirements: Misouri river</li>
+            </ul>
+        <input type="button" value="Join Us" class="submitBtn joinUs">
+        </section>
+        <form action="thanks.html" enctype="multipart/form-data" name="attend" id="conference" class="notShow">
+
+            <fieldset class="personalInfo">
+                <img src="images/form.jpg" alt="personal info"> 
+                <legend><span>Personal Information</span></legend>
+                <label><span>Full name:</span><input name="fullname" type="text" value="" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" required></label>	
+                <label><span>Home State or Country:</span><input name="address" type="text" value="" placeholder="Address" pattern="[a-zA-Z0-9 -._]{3,99}" required></label>
+                <label><span>Zip code:</span><input name="zipcode" type="number" value="" placeholder="12345" pattern="[0-9]{5,9}" required></label>
+                <label><span>Email:</span><input name="email" type="email" value="" placeholder="zen@gmail.com" required></label>
+                <label><span>Phone:</span><input name="phone" type="tel" value="" placeholder="1235551234" pattern="[0-9]{10,20}" required></label>
+                <label><span>Date of Birth:</span><input name="stormDate" type="date"></label>	
+                <label>
+                <span>Do you have any Comments or special Accomodations?:
+                </span>
+                </label>
+                <div>
+                <textarea name="comments" rows="10" cols="100" form="" class="contactComments" ></textarea>
+                </div>
+            </fieldset>
+            <input type="submit" value="Sign me up" class="submitBtn" id="submitButton">
+            <input name="redirect" type="hidden" value="thanks.html" class="redirect">
+        </form>	 
+            
+    </main>
+    <footer>
+        <aside class="information">
+        <p>3950 Valley Commons Drive Bozeman, MT</p>
+        <P>MT 3950 999</P>
+        <P>(999) 999 9999</P>
+        <P>Contact@url.com</P>
+        </aside>
+        <p class="footer-bar">&copy;2018 All Rights Reserved | Sunny or Rainy | <span id="currentdate"></span></p>
+    </footer>
+   
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/module.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/rating.js"></script>
+    <script src="js/showForm.js"></script>
+    
+
+</body>
+</html>
