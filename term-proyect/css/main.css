@@ -297,7 +297,6 @@ ul,ol{
 	display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    justify-items: start;
 	text-align: left;
 	color: #fff;
 	z-index: 1;
@@ -357,7 +356,6 @@ ul,ol{
     grid-row-end: 1;
 }
 .highlight{
-    justify-self: start;
     margin:0;
 }
 /*-----------------End of Bikes---------------*/
