@@ -129,6 +129,17 @@ footer {
 .SList{
     list-style-type: square;
 }
+.mainFigure{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.mainFigure img{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*-----------------Services----------------*/
 
 .garage{
@@ -236,7 +247,7 @@ input.submitBtn{
     background: #E10013;
     font-weight: 700;
 }
-    input, textarea, select, button {
+input, textarea, select, button {
         width : 150px;
         margin: 0;
         -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
