@@ -134,6 +134,12 @@ footer {
 .marketing{
     text-align: center;
 }
+.MList{
+    list-style-type: circle;
+}
+.SList{
+    list-style-type: square;
+}
 /*-----------------Services----------------*/
 
 .garage{
@@ -163,7 +169,7 @@ footer {
     list-style-type: circle;
 }
 
-/*-----------------End of Index---------*/
+/*-----------------End of Services---------*/
 /*----------------Home----------------*/
 .biking {
     display: grid;
@@ -177,7 +183,7 @@ footer {
 .legend{
     text-align: center;
 }
-/*-------------End of theGallery----------*/
+/*-------------End of Home----------*/
 /*--------------------Events----------------*/
 .events{
     display: grid;

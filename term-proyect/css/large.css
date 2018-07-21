@@ -1,9 +1,11 @@
 @media only screen and (min-width: 64em ) {
-    /*------------------Gallery--------------*/
+    /*------------------events--------------*/
     fieldset img{
         display: block;
         float: right;
     }
+    /*------------------events--------------*/
+    /*------------------bikes--------------*/
     .reducer{
         grid-column-start: 1;
         grid-row-end: 1;
@@ -23,10 +25,13 @@
 	.left, .right{
 		font-size: 40px;
 	}
+    /*------------------bikes--------------*/
+    /*------------------services--------------*/
     .services {
         grid-template-columns: 1fr  1fr  1fr;
     }
     .services article:nth-child(3){
         grid-column-end: auto;
     }
+    /*---------------End of services--------------*/
   }
