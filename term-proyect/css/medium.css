@@ -100,4 +100,11 @@
 	}
 
     /*----------------End of bikes------------*/
+    /*-------------------contact--------------*/
+    .google-maps iframe{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*--------------End of contact------------*/
   }
