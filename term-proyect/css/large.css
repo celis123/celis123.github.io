@@ -15,11 +15,11 @@
         grid-row-end: 1;
     }
     .slider .caption p{
-        font-size: 20px;
+        font-size: 15px;
 	}
 
 	.slider .caption h1{
-		font-size: 40px;
+		font-size: 30px;
 	}
 
 	.left, .right{
