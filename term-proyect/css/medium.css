@@ -75,7 +75,10 @@
     article p{
         overflow: auto;
     }
-
+    video{
+        width: 500px;
+        height: 350px;
+    }
     /*--------------Home--------------*/
     .biking {
     grid-template-columns: 1fr 1fr;

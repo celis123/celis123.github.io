@@ -358,6 +358,16 @@ ul,ol{
 .highlight{
     margin:0;
 }
+video{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.video{
+    text-decoration: none;
+    color: #EAA612;
+    font-size: 20px;
+}
 /*-----------------End of Bikes---------------*/
 /*-----------------Contact Us-----------------*/
 .contactComments{
